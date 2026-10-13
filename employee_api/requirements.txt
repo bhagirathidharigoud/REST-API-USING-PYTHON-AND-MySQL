@@ -1,0 +1,27 @@
+# ─────────────────────────────────────────────────────────────
+# requirements.txt  –  All packages needed for this project
+# Install everything at once with:
+#     pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# FastAPI  – the web framework we use to build REST APIs.
+# It reads your Python functions and turns them into HTTP endpoints.
+fastapi==0.111.0
+
+# Uvicorn  – the web server that actually runs FastAPI.
+# Think of FastAPI as the engine and Uvicorn as the car body.
+# [standard] installs extra packages needed for production use.
+uvicorn[standard]==0.29.0
+
+# mysql-connector-python  – lets Python talk to a MySQL database.
+# Without this, Python has no way to send SQL queries to MySQL.
+mysql-connector-python==8.4.0
+
+# python-dotenv  – reads the .env file and loads your secret
+# credentials as environment variables so you never hard-code
+# passwords in your source code.
+python-dotenv==1.0.1
+
+# python-multipart  – required by FastAPI to handle file uploads.
+# Without it, file upload endpoints will raise a runtime error.
+python-multipart==0.0.9

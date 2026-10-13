@@ -1,0 +1,9 @@
+name,email,department,salary
+Carol White,carol@example.com,Engineering,80000
+David Brown,david@example.com,Marketing,60000
+Eva Green,eva@example.com,HR,55000
+Frank Miller,frank@example.com,Engineering,90000
+,missing@example.com,IT,50000
+Grace Lee,not-an-email,Finance,70000
+Henry Adams,henry@example.com,IT,minus-fifty
+Ivan Clark,ivan@example.com,Operations,65000

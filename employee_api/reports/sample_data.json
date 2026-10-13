@@ -1,0 +1,14 @@
+{
+    "project": "Employee Management API",
+    "version": "1.0.0",
+    "description": "Sample JSON file for Stage 6 testing",
+    "settings": {
+        "max_salary": 200000,
+        "min_salary": 10000,
+        "allowed_departments": ["Engineering", "Marketing", "HR", "Finance", "Operations", "IT"]
+    },
+    "metadata": {
+        "created_by": "admin",
+        "created_at": "2026-10-13"
+    }
+}
